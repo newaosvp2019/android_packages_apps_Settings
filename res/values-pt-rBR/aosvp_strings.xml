@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-   Copyright 2017 ViperOS Project
+   Copyright 2017 ViperOS
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -17,10 +17,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, ViperOS version -->
-    <string name="aosvp_version">AOSVP</string>
-
+    <string name="aosvp_version">ViperOS</string>
+ 
     <!-- Venom Settings -->
     <string name="venom_settings_title">Venom</string>
-    <string name="venom_settings_summary">ROM features &amp; customization</string>
+    <string name="venom_settings_summary">Personalizar o dispositivo</string>
 
 </resources>
