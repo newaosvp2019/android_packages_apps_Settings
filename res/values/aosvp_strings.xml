@@ -23,6 +23,8 @@
     <string name="venom_settings_title">Venom</string>
     <string name="venom_settings_summary">ROM features &amp; customization</string>
 
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
     <!-- Wake on Plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
