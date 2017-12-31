@@ -28,15 +28,17 @@ import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.settings.core.PreferenceController;
-import com.android.settings.core.lifecycle.Lifecycle;
-import com.android.settings.core.lifecycle.LifecycleObserver;
-import com.android.settings.core.lifecycle.events.OnResume;
+import com.android.settings.R;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.RestrictedLockUtils;
 
 
-public class AosvpVersionPreferenceController extends PreferenceController
-        implements LifecycleObserver, OnResume {
+public class AosvpVersionPreferenceController extends AbstractPreferenceController
+        implements PreferenceControllerMixin, LifecycleObserver, OnResume {
 
     private static final String TAG = "AosvpVersionPref";
     private static final String KEY_AOSVP_VERSION = "aosvp_version";
