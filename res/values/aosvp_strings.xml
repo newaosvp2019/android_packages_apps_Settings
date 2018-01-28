@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, ViperOS version -->
-    <string name="aosvp_version">AOSVP</string>
+    <string name="aosvp_version">AOSVP Version</string>
 
     <!-- Venom Settings -->
     <string name="venom_settings_title">Venom</string>
