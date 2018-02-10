@@ -28,7 +28,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-palette \
     android-support-v7-recyclerview \
-    android-support-v14-preference
+    android-support-v14-preference \
+    android-support-design
 
 LOCAL_JAVA_LIBRARIES := \
     bouncycastle \
@@ -46,6 +47,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
+    frameworks/support/design/res \
     packages/apps/Venom/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
@@ -56,6 +58,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
+    --extra-packages android.support.design \
     --extra-packages com.viper.venom
 
 ifneq ($(INCREMENTAL_BUILDS),)
